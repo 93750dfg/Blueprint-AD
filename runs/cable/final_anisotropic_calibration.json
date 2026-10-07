@@ -1,0 +1,202 @@
+{
+    "Group_E": {
+        "weight_center(HBB)": 0.5,
+        "weight_center(KPT)": 0.5,
+        "weight_angle_vectors": {},
+        "offset_x": 1.4897,
+        "offset_y": -2.9826,
+        "offset_angle": -11.3462,
+        "global_extents": {
+            "beam_X_pos": {
+                "fwd_max": 175.007,
+                "lat_pos_max": 174.148,
+                "lat_neg_max": 174.148,
+                "c_ratio": 0.999
+            },
+            "beam_X_neg": {
+                "fwd_max": 175.007,
+                "lat_pos_max": 174.148,
+                "lat_neg_max": 174.148,
+                "c_ratio": 0.999
+            },
+            "beam_Y_pos": {
+                "fwd_max": 174.148,
+                "lat_pos_max": 175.007,
+                "lat_neg_max": 175.007,
+                "c_ratio": 0.999
+            },
+            "beam_Y_neg": {
+                "fwd_max": 174.148,
+                "lat_pos_max": 175.007,
+                "lat_neg_max": 175.007,
+                "c_ratio": 0.999
+            }
+        },
+        "min_conf_threshold": 0.9052,
+        "empirical_jitter": {
+            "cx_std": 0.0066,
+            "cy_std": 0.0082,
+            "theta_std": 0.0
+        }
+    },
+    "Group_D": {
+        "weight_center(HBB)": 0.5,
+        "weight_center(KPT)": 0.5,
+        "weight_angle_vectors": {},
+        "offset_x": 3.2529,
+        "offset_y": -2.3813,
+        "offset_angle": -32.5249,
+        "global_extents": {
+            "beam_X_pos": {
+                "fwd_max": 176.47,
+                "lat_pos_max": 175.637,
+                "lat_neg_max": 175.637,
+                "c_ratio": 0.999
+            },
+            "beam_X_neg": {
+                "fwd_max": 176.47,
+                "lat_pos_max": 175.637,
+                "lat_neg_max": 175.637,
+                "c_ratio": 0.999
+            },
+            "beam_Y_pos": {
+                "fwd_max": 175.637,
+                "lat_pos_max": 176.47,
+                "lat_neg_max": 176.47,
+                "c_ratio": 0.999
+            },
+            "beam_Y_neg": {
+                "fwd_max": 175.637,
+                "lat_pos_max": 176.47,
+                "lat_neg_max": 176.47,
+                "c_ratio": 0.999
+            }
+        },
+        "min_conf_threshold": 0.9172,
+        "empirical_jitter": {
+            "cx_std": 0.0083,
+            "cy_std": 0.0056,
+            "theta_std": 0.0
+        }
+    },
+    "Group_F": {
+        "weight_center(HBB)": 0.5,
+        "weight_center(KPT)": 0.5,
+        "weight_angle_vectors": {},
+        "offset_x": 3.0858,
+        "offset_y": 0.3967,
+        "offset_angle": 46.8747,
+        "global_extents": {
+            "beam_X_pos": {
+                "fwd_max": 175.843,
+                "lat_pos_max": 175.517,
+                "lat_neg_max": 175.517,
+                "c_ratio": 0.999
+            },
+            "beam_X_neg": {
+                "fwd_max": 175.843,
+                "lat_pos_max": 175.517,
+                "lat_neg_max": 175.517,
+                "c_ratio": 0.999
+            },
+            "beam_Y_pos": {
+                "fwd_max": 175.517,
+                "lat_pos_max": 175.843,
+                "lat_neg_max": 175.843,
+                "c_ratio": 0.999
+            },
+            "beam_Y_neg": {
+                "fwd_max": 175.517,
+                "lat_pos_max": 175.843,
+                "lat_neg_max": 175.843,
+                "c_ratio": 0.999
+            }
+        },
+        "min_conf_threshold": 0.9147,
+        "empirical_jitter": {
+            "cx_std": 0.007,
+            "cy_std": 0.0055,
+            "theta_std": 0.0
+        }
+    },
+    "Group_B": {
+        "weight_center(HBB)": 0.5,
+        "weight_center(KPT)": 0.5,
+        "weight_angle_vectors": {},
+        "offset_x": -0.8328,
+        "offset_y": 0.4041,
+        "offset_angle": 4.65,
+        "global_extents": {
+            "beam_X_pos": {
+                "fwd_max": 442.839,
+                "lat_pos_max": 442.623,
+                "lat_neg_max": 442.623,
+                "c_ratio": 0.996
+            },
+            "beam_X_neg": {
+                "fwd_max": 442.839,
+                "lat_pos_max": 442.623,
+                "lat_neg_max": 442.623,
+                "c_ratio": 0.996
+            },
+            "beam_Y_pos": {
+                "fwd_max": 442.623,
+                "lat_pos_max": 442.839,
+                "lat_neg_max": 442.839,
+                "c_ratio": 0.996
+            },
+            "beam_Y_neg": {
+                "fwd_max": 442.623,
+                "lat_pos_max": 442.839,
+                "lat_neg_max": 442.839,
+                "c_ratio": 0.996
+            }
+        },
+        "min_conf_threshold": 0.9613,
+        "empirical_jitter": {
+            "cx_std": 0.0129,
+            "cy_std": 0.0134,
+            "theta_std": 0.0
+        }
+    },
+    "Group_A": {
+        "weight_center(HBB)": 0.5,
+        "weight_center(KPT)": 0.5,
+        "weight_angle_vectors": {},
+        "offset_x": -0.9041,
+        "offset_y": -0.0946,
+        "offset_angle": -4.3954,
+        "global_extents": {
+            "beam_X_pos": {
+                "fwd_max": 100.205,
+                "lat_pos_max": 98.357,
+                "lat_neg_max": 98.357,
+                "c_ratio": 0.994
+            },
+            "beam_X_neg": {
+                "fwd_max": 100.205,
+                "lat_pos_max": 98.357,
+                "lat_neg_max": 98.357,
+                "c_ratio": 0.994
+            },
+            "beam_Y_pos": {
+                "fwd_max": 98.357,
+                "lat_pos_max": 100.205,
+                "lat_neg_max": 100.205,
+                "c_ratio": 0.994
+            },
+            "beam_Y_neg": {
+                "fwd_max": 98.357,
+                "lat_pos_max": 100.205,
+                "lat_neg_max": 100.205,
+                "c_ratio": 0.994
+            }
+        },
+        "min_conf_threshold": 0.9079,
+        "empirical_jitter": {
+            "cx_std": 0.0079,
+            "cy_std": 0.0092,
+            "theta_std": 0.0
+        }
+    }
+}

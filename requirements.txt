@@ -1,0 +1,15 @@
+torch
+torchvision
+numpy
+scipy
+scikit-learn
+scikit-image
+Pillow
+tqdm
+matplotlib
+tifffile
+click
+timm
+ultralytics
+faiss-cpu
+FrEIA

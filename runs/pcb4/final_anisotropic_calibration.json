@@ -1,0 +1,227 @@
+{
+    "Group_A": {
+        "weight_center(HBB)": 0.6305,
+        "weight_center(KPT)": 0.3695,
+        "weight_angle_vectors": {
+            "w_Full(KP0-KP1)": 0.9556,
+            "w_Front(KP0-KP2)": 0.028,
+            "w_Back(KP2-KP1)": 0.0165
+        },
+        "offset_x": 2.6153,
+        "offset_y": -0.8965,
+        "offset_angle": 0.7053,
+        "global_extents": {
+            "beam_X_pos": {
+                "fwd_max": 441.8,
+                "lat_pos_max": 342.291,
+                "lat_neg_max": 341.747,
+                "c_ratio": 0.92
+            },
+            "beam_X_neg": {
+                "fwd_max": 425.416,
+                "lat_pos_max": 340.514,
+                "lat_neg_max": 340.208,
+                "c_ratio": 0.994
+            },
+            "beam_Y_pos": {
+                "fwd_max": 341.927,
+                "lat_pos_max": 446.983,
+                "lat_neg_max": 420.164,
+                "c_ratio": 0.965
+            },
+            "beam_Y_neg": {
+                "fwd_max": 341.761,
+                "lat_pos_max": 447.024,
+                "lat_neg_max": 420.031,
+                "c_ratio": 0.967
+            }
+        },
+        "min_conf_threshold": 0.9373,
+        "component_relation": {
+            "component_role": "independent",
+            "parent_class": null,
+            "support": 0.0,
+            "samples": 904
+        },
+        "mask_pixel_ratio_full_image": {
+            "median": 0.278381,
+            "mean": 0.278501,
+            "p25": 0.277087,
+            "p75": 0.279841,
+            "samples": 904
+        },
+        "empirical_jitter": {
+            "cx_std": 0.0056,
+            "cy_std": 0.0049,
+            "theta_std": 0.9105
+        }
+    },
+    "Group_D": {
+        "weight_center(HBB)": 0.5,
+        "weight_center(KPT)": 0.5,
+        "weight_angle_vectors": {},
+        "offset_x": -0.6977,
+        "offset_y": 0.647,
+        "offset_angle": -88.8415,
+        "global_extents": {
+            "beam_X_pos": {
+                "fwd_max": 139.755,
+                "lat_pos_max": 111.114,
+                "lat_neg_max": 111.114,
+                "c_ratio": 0.978
+            },
+            "beam_X_neg": {
+                "fwd_max": 139.755,
+                "lat_pos_max": 111.114,
+                "lat_neg_max": 111.114,
+                "c_ratio": 0.978
+            },
+            "beam_Y_pos": {
+                "fwd_max": 111.114,
+                "lat_pos_max": 139.755,
+                "lat_neg_max": 139.755,
+                "c_ratio": 0.978
+            },
+            "beam_Y_neg": {
+                "fwd_max": 111.114,
+                "lat_pos_max": 139.755,
+                "lat_neg_max": 139.755,
+                "c_ratio": 0.978
+            }
+        },
+        "min_conf_threshold": 0.905,
+        "component_relation": {
+            "component_role": "secondary",
+            "parent_class": "Group_A",
+            "support": 1.0,
+            "median_child_coverage": 0.9972,
+            "median_parent_coverage": 0.1049,
+            "median_parent_area_ratio": 9.5,
+            "samples": 904
+        },
+        "mask_pixel_ratio_full_image": {
+            "median": 0.029324,
+            "mean": 0.029379,
+            "p25": 0.029149,
+            "p75": 0.029531,
+            "samples": 904
+        },
+        "empirical_jitter": {
+            "cx_std": 0.0116,
+            "cy_std": 0.0067,
+            "theta_std": 0.0
+        }
+    },
+    "Group_C": {
+        "weight_center(HBB)": 0.558,
+        "weight_center(KPT)": 0.442,
+        "weight_angle_vectors": {},
+        "offset_x": -0.55,
+        "offset_y": 0.5993,
+        "offset_angle": 1.3624,
+        "global_extents": {
+            "beam_X_pos": {
+                "fwd_max": 95.393,
+                "lat_pos_max": 84.842,
+                "lat_neg_max": 84.842,
+                "c_ratio": 0.992
+            },
+            "beam_X_neg": {
+                "fwd_max": 95.393,
+                "lat_pos_max": 84.842,
+                "lat_neg_max": 84.842,
+                "c_ratio": 0.992
+            },
+            "beam_Y_pos": {
+                "fwd_max": 79.011,
+                "lat_pos_max": 99.248,
+                "lat_neg_max": 99.248,
+                "c_ratio": 0.992
+            },
+            "beam_Y_neg": {
+                "fwd_max": 79.011,
+                "lat_pos_max": 99.248,
+                "lat_neg_max": 99.248,
+                "c_ratio": 0.992
+            }
+        },
+        "min_conf_threshold": 0.7006,
+        "component_relation": {
+            "component_role": "secondary",
+            "parent_class": "Group_A",
+            "support": 1.0,
+            "median_child_coverage": 1.0,
+            "median_parent_coverage": 0.0492,
+            "median_parent_area_ratio": 20.3436,
+            "samples": 664
+        },
+        "mask_pixel_ratio_full_image": {
+            "median": 0.013694,
+            "mean": 0.013627,
+            "p25": 0.013551,
+            "p75": 0.013806,
+            "samples": 664
+        },
+        "empirical_jitter": {
+            "cx_std": 0.0063,
+            "cy_std": 0.0082,
+            "theta_std": 2.2114
+        }
+    },
+    "Group_F": {
+        "weight_center(HBB)": 0.5342,
+        "weight_center(KPT)": 0.4658,
+        "weight_angle_vectors": {},
+        "offset_x": -0.8076,
+        "offset_y": -0.4493,
+        "offset_angle": -1.5497,
+        "global_extents": {
+            "beam_X_pos": {
+                "fwd_max": 87.344,
+                "lat_pos_max": 36.366,
+                "lat_neg_max": 36.366,
+                "c_ratio": 0.996
+            },
+            "beam_X_neg": {
+                "fwd_max": 87.344,
+                "lat_pos_max": 36.366,
+                "lat_neg_max": 36.366,
+                "c_ratio": 0.996
+            },
+            "beam_Y_pos": {
+                "fwd_max": 30.968,
+                "lat_pos_max": 94.676,
+                "lat_neg_max": 94.676,
+                "c_ratio": 0.996
+            },
+            "beam_Y_neg": {
+                "fwd_max": 30.968,
+                "lat_pos_max": 94.676,
+                "lat_neg_max": 94.676,
+                "c_ratio": 0.996
+            }
+        },
+        "min_conf_threshold": 0.7734,
+        "component_relation": {
+            "component_role": "secondary",
+            "parent_class": "Group_A",
+            "support": 1.0,
+            "median_child_coverage": 1.0,
+            "median_parent_coverage": 0.021,
+            "median_parent_area_ratio": 47.6198,
+            "samples": 1536
+        },
+        "mask_pixel_ratio_full_image": {
+            "median": 0.005849,
+            "mean": 0.005852,
+            "p25": 0.00577,
+            "p75": 0.005929,
+            "samples": 1536
+        },
+        "empirical_jitter": {
+            "cx_std": 0.0112,
+            "cy_std": 0.006,
+            "theta_std": 1.3363
+        }
+    }
+}

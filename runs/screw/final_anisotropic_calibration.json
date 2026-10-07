@@ -1,0 +1,46 @@
+{
+    "Group_A": {
+        "weight_center(HBB)": 0.4044,
+        "weight_center(KPT)": 0.5956,
+        "weight_angle_vectors": {
+            "w_Full(KP0-KP1)": 0.0216,
+            "w_Front(KP0-KP2)": 0.022,
+            "w_Back(KP2-KP1)": 0.9564
+        },
+        "offset_x": 4.7654,
+        "offset_y": -7.9369,
+        "offset_angle": -0.1176,
+        "global_extents": {
+            "beam_X_pos": {
+                "fwd_max": 447.402,
+                "lat_pos_max": 158.974,
+                "lat_neg_max": 158.285,
+                "c_ratio": 0.976
+            },
+            "beam_X_neg": {
+                "fwd_max": 425.828,
+                "lat_pos_max": 104.184,
+                "lat_neg_max": 104.284,
+                "c_ratio": 0.999
+            },
+            "beam_Y_pos": {
+                "fwd_max": 129.718,
+                "lat_pos_max": 456.91,
+                "lat_neg_max": 420.658,
+                "c_ratio": 0.999
+            },
+            "beam_Y_neg": {
+                "fwd_max": 132.062,
+                "lat_pos_max": 457.898,
+                "lat_neg_max": 426.911,
+                "c_ratio": 0.998
+            }
+        },
+        "min_conf_threshold": 0.784,
+        "empirical_jitter": {
+            "cx_std": 0.0108,
+            "cy_std": 0.0101,
+            "theta_std": 2.5541
+        }
+    }
+}
